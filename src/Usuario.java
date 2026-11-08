@@ -22,7 +22,7 @@ public abstract class Usuario {
     public void setNombreCompleto(String nombreCompleto){
         if (nombreCompleto==null || nombreCompleto.trim().isEmpty()){
             throw new IllegalArgumentException
-            ("El nombre y apellido no pueden estar vacíos");
+            ("El nombre y apellido no pueden estar vacios"); // Validación para evitar nombres vacíos
         } 
     }
 
